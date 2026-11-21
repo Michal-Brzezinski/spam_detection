@@ -8,4 +8,3 @@ gensim
 optuna
 scipy
 kagglehub
-pathlib

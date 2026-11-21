@@ -3,3 +3,6 @@
 
 # Ignore directory with downloaded data
 data
+
+# Ignore python cache files
+__pycache__/

@@ -1,5 +1,6 @@
 import os
 import shutil
+
 import kagglehub
 import pandas as pd
 
@@ -12,5 +13,13 @@ os.makedirs("data", exist_ok=True)
 shutil.copy(os.path.join(sciezka_cache, "spam.csv"), "data/spam.csv")
 
 # 2. Wczytanie danych (ten konkretny plik wymaga kodowania 'latin1')
-df = pd.read_csv("data/spam.csv", encoding="latin1")
+df = pd.read_csv(
+    "data/spam.csv",
+    encoding="latin1",
+    usecols=[0, 1],          # bierze tylko dwie pierwsze kolumny
+    header=0,                # nadpisuje pierwszy wiersz (v1, v2)
+    names=["label", "text"]
+)
 print(df.head())
+print(df.shape)
+print(df["label"].value_counts())

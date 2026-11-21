@@ -5,12 +5,7 @@ Ze względu na problem z kompatybilnością niektórych bibliotek:
 py -3.12 -m venv .venv
 ```
 
-Pobieramy zbiór ze strony: 
+Pobieramy zbiór ze strony i sprawdzamy poprawność załadowania do skryptu: 
 ```bash
-py src/download_data.py
-```
-
-Sprawdzamy poprawność załadowania danych skryptem:
-```bash
-py src/test_load.py
+py src/download_and_verify_data.py
 ```
