@@ -1,1 +1,5 @@
+# Ignore venv dir
 .venv
+
+# Ignore directory with downloaded data
+data

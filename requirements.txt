@@ -7,3 +7,5 @@ nltk
 gensim
 optuna
 scipy
+kagglehub
+pathlib
