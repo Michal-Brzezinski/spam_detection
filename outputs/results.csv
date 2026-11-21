@@ -1,0 +1,9 @@
+Representation,Model,Accuracy,F1
+BOW,LinearSVM,0.9874,0.951
+TFIDF,LinearSVM,0.9857,0.9441
+BOW,NaiveBayes,0.9821,0.9315
+BOW,LogisticRegression,0.9812,0.9242
+TFIDF,NaiveBayes,0.9668,0.8593
+TFIDF,LogisticRegression,0.9659,0.8561
+Word2Vec,LinearSVM,0.8673,0.0513
+Word2Vec,LogisticRegression,0.8664,0.0
