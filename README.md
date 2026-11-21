@@ -1,0 +1,1 @@
+# Laboratorium nr 4 – wektoryzacja tekstu i klasyfikacja: spam albo sentyment
